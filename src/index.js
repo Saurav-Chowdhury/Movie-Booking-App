@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import Header from './common/header/header';
 import './index.css';
 import reportWebVitals from './reportWebVitals';
+import Home from './screens/home/Home';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Header/>
+    <Home />
   </React.StrictMode>,
   document.getElementById('root')
 );

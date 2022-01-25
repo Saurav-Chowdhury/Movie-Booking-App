@@ -1,0 +1,25 @@
+.heading{
+    text-align: center;
+    padding: 8px;
+    background: #ff9999;
+    font-size: 1rem;
+}
+
+.gridtile{
+    cursor: pointer;
+    box-shadow: 10px 10px 7px grey;
+    border: 1px solid grey;
+    margin: 1%;
+}
+
+.flex-container{
+    display: flex;
+    margin: 16px;
+    margin-top: 4%;
+}
+
+
+.movieList{
+    margin-right: 2%;
+}
+
