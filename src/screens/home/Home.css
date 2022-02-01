@@ -23,3 +23,35 @@
     margin-right: 2%;
 }
 
+.root{
+    color: #4791db;
+}
+
+.filters{
+    margin-right: 1%;
+}
+
+.gridListUpcomingMovies{
+    flex-wrap: nowrap;
+    transform: translateZ(0);
+    width: 100%;
+}
+
+
+
+.forms{
+    width: 11em;
+}
+
+
+@media only screen and (max-width: 600px){
+	/*Big smartphones [426px -> 600px]*/
+    .body{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.gridtile img{
+    width: 23em;
+}
